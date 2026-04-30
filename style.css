@@ -9,7 +9,7 @@
 
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -19,6 +19,17 @@ body {
     gap: 5%;
     color: var(--cor-texto);
     background-color: var(--cor-fundo);
+
+}
+#container{
+    justify-content: center;
+    text-align: center;
+}
+
+#card {
+    justify-content: center;
+    text-align: center;
+    
 }
 
 main {
@@ -34,36 +45,37 @@ main {
     flex-direction: column;
     align-items: flex-end;
     gap: 5px;
-}
 
-#form-login input {
-    padding: 5px;
-    border: solid var(--cor-texto);
-}
 
-#form-login button {
-    border: solid var(--cor-texto);
-}
+    #form-login input {
+        padding: 5px;
+        border: solid var(--cor-texto);
+    }
 
-#form-login button:hover {
-    background-color: var(--cor-texto);
-}
+    #form-login button {
+        border: solid var(--cor-texto);
+    }
 
-.toggle {
-    text-align: center;
-    margin-top: 10px;
-    cursor: pointer;
-    color: var(--cor-texto);
-}
+    #form-login button:hover {
+        background-color: var(--cor-texto);
+    }
 
-.erro {
-    color: var(--cor-erro);
-    font-size: 12px;
-    text-align: center;
-}
+    .toggle {
+        text-align: center;
+        margin-top: 10px;
+        cursor: pointer;
+        color: var(--cor-texto);
+    }
 
-.sucesso {
-    color: var(--cor-sucesso);
-    font-size: 12px;
-    text-align: center;
+    .erro {
+        color: var(--cor-erro);
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .sucesso {
+        color: var(--cor-sucesso);
+        font-size: 12px;
+        text-align: center;
+    }
 }

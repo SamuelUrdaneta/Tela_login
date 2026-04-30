@@ -18,27 +18,44 @@
     </header>
 
     <main>
-        <div class="container">
-            <h2 id="titulo">Login</h2>
-            <form id="form-login">
-                <div id="c-email" class="conjunto">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+        <div class="container mt-5">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="container">
+                            <div class="container text-center">
+                                <br>
+                                <h2 id="titulo">Login</h2>
+                            </div>
+                            <form id="form-login">
+                                <div id="c-email" class="conjunto">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Digite seu email" required>
+                                </div>
+                                <br>
+                                <div id="c-senha" class="conjunto">
+                                        <label for="exampleInputPassword1" class="form-label">Senha</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha"  required>
+                                </div>
+                                <br>
+                                <div class="d-grid gap-2 ">
+                                    <button id="botao-envio" type="submit" class="btn btn-primary">Entrar</button>
+                                </div>
+                            </form>
+                            <div id="mensagem"></div>
+                            <div class="container text-center">
+                                <div class="toggle" id="toggle">
+                                    <p>Não tem conta? <a href="">Cadastre-se</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="c-senha" class="conjunto">
-                    <label for="exampleInputPassword1" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" required>
-                </div>
-                <br>
-                <button id="botao-envio" type="submit" class="btn btn-primary">Entrar</button>
-            </form>
-            <div id="mensagem"></div>
-
-            <div class="toggle" id="toggle">
-                <p>Não tem conta? Cadastre-se</p>
             </div>
         </div>
-       
+
+
     </main>
 
     <footer>
